@@ -5,7 +5,7 @@
       "email": "loandt34@fpt.edu.vn",
       "password": "123",
       "role": "lecturer",
-      "status": "Inactive"
+      "status": "active"
     },
     {
       "id": "2",
@@ -42,21 +42,36 @@
       "id": "1",
       "subjectId": "CSD201",
       "content": "Which data structure uses LIFO principle?",
-      "options": ["Queue", "Stack", "Array", "Tree"],
-      "correctAnswer": "Stack"
+      "options": [
+        "Stack",
+        "Array",
+        "Tree",
+        "123"
+      ],
+      "correctAnswer": "Array"
     },
     {
       "id": "2",
       "subjectId": "CSD201",
       "content": "What is the time complexity of binary search?",
-      "options": ["O(n)", "O(log n)", "O(1)", "O(n log n)"],
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(1)",
+        "O(n log n)"
+      ],
       "correctAnswer": "O(log n)"
     },
     {
       "id": "3",
       "subjectId": "CSD201",
       "content": "Which traversal visits root node first in trees?",
-      "options": ["Inorder", "Preorder", "Postorder", "Level-order"],
+      "options": [
+        "Inorder",
+        "Preorder",
+        "Postorder",
+        "Level-order"
+      ],
       "correctAnswer": "Preorder"
     },
     {
@@ -75,14 +90,24 @@
       "id": "5",
       "subjectId": "CSD203",
       "content": "What is the maximum degree of a B-tree of order m?",
-      "options": ["m", "m-1", "m/2", "2m"],
+      "options": [
+        "m",
+        "m-1",
+        "m/2",
+        "2m"
+      ],
       "correctAnswer": "m"
     },
     {
       "id": "6",
       "subjectId": "DBI202",
       "content": "Which SQL clause is used to filter records?",
-      "options": ["WHERE", "GROUP BY", "ORDER BY", "SELECT"],
+      "options": [
+        "WHERE",
+        "GROUP BY",
+        "ORDER BY",
+        "SELECT"
+      ],
       "correctAnswer": "WHERE"
     },
     {
@@ -101,7 +126,12 @@
       "id": "8",
       "subjectId": "FER202",
       "content": "What hook is used for side effects in React?",
-      "options": ["useState", "useEffect", "useContext", "useReducer"],
+      "options": [
+        "useState",
+        "useEffect",
+        "useContext",
+        "useReducer"
+      ],
       "correctAnswer": "useEffect"
     },
     {
@@ -115,13 +145,6 @@
         "JavaScript Execution"
       ],
       "correctAnswer": "JavaScript XML"
-    },
-    {
-      "subjectId": "CSD201",
-      "content": "What is tree?",
-      "correctAnswer": "BsTree",
-      "options": ["BSTree; AVL; abc; def"],
-      "id": "C8Z0u3xbqVQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
